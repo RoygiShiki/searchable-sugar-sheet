@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'sweet';
+    src: url('../fonts/sweet.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+	font-family: 'sweet';
+	color: #FF90CB;
+}
+
+.search_input {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+.focused {
+	color: #FF60CB;
+	font-weight: bold;
+}
